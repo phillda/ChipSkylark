@@ -1,0 +1,195 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2018 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 18.10-p003_1, built Thu Jun 07 23:53:27 EDT 2018
+Options: -legacy_ui -files cmd/genus_TMULT.cmd 
+Date:    Mon Nov 16 22:17:30 2020
+Host:    eecs-810rds-14 (x86_64 w/Linux 5.0.0-32-generic) (6cores*12cpus*1physical cpu*Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz 12288KB) (32767556KB)
+OS:      Unsupported OS as /etc does not have release info
+
+Checking out license: Genus_Synthesis
+
+Loading tool scripts...
+
+Finished loading tool scripts (4 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source cmd/genus_TMULT.cmd
+  Setting attribute of root '/': 'lib_lef_consistency_check_enable' = true
+  Setting attribute of root '/': 'lib_search_path' = ../lib/
+
+Threads Configured:6
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX0P5BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 484149)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX0P6BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 484402)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX0P8BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 484908)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX0P7BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 484655)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX11BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 485161)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX13BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 485414)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX16BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 485667)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX1BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 485920)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX1P2BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 486173)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX1P4BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 486426)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX1P7BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 486679)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX2BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 486932)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX2P5BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 487185)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX3BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 487438)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX3P5BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 487691)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX4BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 487944)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX5BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 488197)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX6BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 488450)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX7P5BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 488703)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'POSTICGX9BA10TR' (File /home/phillda/Documents/dallas/syn/../lib//scadv10_cln65gp_rvt_tt_1p0v_25c.lib, Line 488956)
+
+  Message Summary for Library both libraries:
+  *******************************************
+  Could not find an attribute in the library. [LBR-436]: 972
+  Missing clock pin in the sequential cell. [LBR-525]: 26
+  Missing a function attribute in the output pin definition. [LBR-518]: 31
+  An unsupported construct was detected in this library. [LBR-40]: 131
+  *******************************************
+ 
+Warning : Libraries have inconsistent nominal operating conditions. [LBR-38]
+        : The libraries are 'scadv10_cln65gp_rvt_tt_1p0v_25c' and 'tphn65gpgv2od3_sltc'.
+        : This is a common source of delay calculation confusion and is strongly discouraged.
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.000000, 25.000000) in library 'scadv10_cln65gp_rvt_tt_1p0v_25c.lib'.
+        : The nominal operating condition represents either the nominal PVT values if specified in the library source, or the default PVT values (1.0, 1.0, 1.0).
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 3.300000, 25.000000) in library 'tphn65gpgv2od3_sltc.lib'.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'PENDCAP_G' must have an output pin.
+        : Add the missing output pin(s), then reload the library. Otherwise, the library cell will be marked as unusable and as timing model.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'PENDCAP_G' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'PENDCAPA_G' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'PENDCAPA_G' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'PRCUT_G' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'PRCUT_G' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'PRCUTA_G' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'PRCUTA_G' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILL18CAP128A10TR' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILL18CAP128A10TR' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILL18CAP12A10TR' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILL18CAP12A10TR' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILL18CAP16A10TR' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILL18CAP16A10TR' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILL18CAP32A10TR' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILL18CAP32A10TR' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILL18CAP64A10TR' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILL18CAP64A10TR' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILL18CAPTIE128A10TR' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILL18CAPTIE128A10TR' must have an output pin.
+  Setting attribute of root '/': 'library' = scadv10_cln65gp_rvt_tt_1p0v_25c.lib tphn65gpgv2od3_sltc.lib
+Warning : Multiple ports are found on a pin without MUSTJOINALLPORTS in the pin property. [PHYS-2381]
+        : Multiple ports are found on pin 'VDD' on cell 'PVDD1DGZ_G' without MUSTJOINALLPORTS in the pin property.
+        : This means that only one port would be connected, which may not be the expected behavior. Should consider adding MUSTJOINALLPORTS property.
+Warning : Multiple ports are found on a pin without MUSTJOINALLPORTS in the pin property. [PHYS-2381]
+        : Multiple ports are found on pin 'VSS' on cell 'PVSS1DGZ_G' without MUSTJOINALLPORTS in the pin property.
+Warning : Multiple ports are found on a pin without MUSTJOINALLPORTS in the pin property. [PHYS-2381]
+        : Multiple ports are found on pin 'VSS' on cell 'PVSS3DGZ_G' without MUSTJOINALLPORTS in the pin property.
+
+  According to lef_library, there are total 9 routing layers [ V(4) / H(5) ]
+
+Warning : Library cell pin 'use' attribute is inconsistent between lib and LEF. [PHYS-128]
+        : Pin 'VDD' of library cell 'PVDD1DGZ_G' is marked as POWER in LEF file.
+        : Overriding lib value with LEF value. To use .lib as golden do: '::legacy::set_attribute use_power_ground_pin_from_lef false'.
+Warning : Library cell pin 'use' attribute is inconsistent between lib and LEF. [PHYS-128]
+        : Pin 'VSS' of library cell 'PVSS1DGZ_G' is marked as GROUND in LEF file.
+Warning : Library cell pin 'use' attribute is inconsistent between lib and LEF. [PHYS-128]
+        : Pin 'VSS' of library cell 'PVSS2AC_G' is marked as GROUND in LEF file.
+Warning : Library cell pin 'use' attribute is inconsistent between lib and LEF. [PHYS-128]
+        : Pin 'VSS' of library cell 'PVSS2A_G' is marked as GROUND in LEF file.
+Warning : Library cell pin 'use' attribute is inconsistent between lib and LEF. [PHYS-128]
+        : Pin 'VSS' of library cell 'PVSS3DGZ_G' is marked as GROUND in LEF file.
+  Setting attribute of root '/': 'lef_library' = /home/phillda/Documents/dallas/syn/../lib//tsmc_cln65_a10_6X1Z1U_tech.lef /home/phillda/Documents/dallas/syn/../lib//tsmc65_rvt_sc_adv10_macro.lef /home/phillda/Documents/dallas/syn/../lib//tphn65gpgv2od3_sl_9lm.lef /home/phillda/Documents/dallas/syn/../lib//tpbn65v_9lm.lef
+Warning : Cannot open file. [VHDLPT-500]
+        : VHDL source file '../src/zedboard.vhd'.
+        : The input VHDL file cannot be opened.  Make sure that the directory path and file extension (e.g., .vhdl) are specified.
+  Setting attribute of root '/': 'map_timing' = true
+Error   : No designs are available. A design must first be read in and elaborated. [TUI-10] [ungroup]
+        : There is no design here.
+        : A design must first be read in with 'read_hdl' command and elaborated with 'elaborate' command.
+Error   : A required object parameter could not be found. [TUI-61] [define_clock]
+        : An object of type 'design' named 'zed' could not be found.
+        : Check to make sure that the object exists and is of the correct type.  The 'what_is' command can be used to determine the type of an object.
+  define_clock: defines and apply a clock waveform 
+
+Usage: define_clock [-mode <mode>] [-design <design>] [-name <string>]
+           [-domain <string>] -period <delay in picoseconds>
+           [-divide_period <integer>] [-rise <integer>] [-divide_rise <integer>]
+           [-fall <integer>] [-divide_fall <integer>] [-remove] [<pin|port>+]
+
+    [-mode <mode>]:
+        a mode the paths should be restricted to 
+    [-design <design>]:
+        target design if the clock is external 
+    [-name <string>]:
+        clock name 
+    [-domain <string>]:
+        name of clock domain (default is 'domain_1') 
+    -period <delay in picoseconds>:
+        period interval in picoseconds 
+    [-divide_period <integer>]:
+        clock periods per interval (default is 1) to create a 100MHz clock use 
+        '-period 10000' to create a 300MHz clock use '-period 10000 
+        -divide_period 3' (the period is 10000/3 picoseconds) 
+    [-rise <integer>]:
+        rise period fraction numerator (default is 0) 
+    [-divide_rise <integer>]:
+        rise period fraction denominator (def. 100) 
+    [-fall <integer>]:
+        fall period fraction numerator (default is 50) 
+    [-divide_fall <integer>]:
+        fall period fraction denominator (def. 100) the default is a clock that 
+        rises at time 0 and falls after half of the clock period to create a 
+        waveform that rises after 20% of the period and falls after 80% of the 
+        period use '-rise 20 -fall 80' to create a waveform that falls after 
+        1/3 of the period and rises after 2/3 of the period use -fall 1 
+        -divide_fall 3 -rise 2 -divide_rise 3 
+    [-remove]:
+        remove clocks on source before create 
+    [<pin|port>+]:
+        source objects 
+1
+Encountered problems processing file: cmd/genus_TMULT.cmd
+WARNING: This version of the tool is 892 days old.

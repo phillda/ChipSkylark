@@ -1,0 +1,29 @@
+#####################################################################
+#
+# Innovus input globals file
+# Created by Genus(TM) Synthesis Solution on 11/15/2020 16:41:39
+#
+#####################################################################
+global setUserDataValue
+global set_global
+set cwd lpwd
+setUserDataValue init_verilog {./innovus/TMULT/TMULT.v}
+setUserDataValue init_design_netlisttype {Verilog}
+setUserDataValue init_design_settop {1}
+setUserDataValue init_top_cell {TMULT}
+setUserDataValue init_mmmc_file {./innovus/TMULT/TMULT.mmode.tcl}
+setUserDataValue init_lef_file {/home/phillda/Documents/dallas/syn/../lib//tsmc_cln65_a10_6X1Z1U_tech.lef /home/phillda/Documents/dallas/syn/../lib//tsmc65_rvt_sc_adv10_macro.lef /home/phillda/Documents/dallas/syn/../lib//tphn65gpgv2od3_sl_9lm.lef /home/phillda/Documents/dallas/syn/../lib//tpbn65v_9lm.lef}
+setUserDataValue fp_core_cntl {aspect}
+setUserDataValue fp_aspect_ratio {1.0000}
+setUserDataValue extract_shrink_factor {1.0}
+setUserDataValue init_assign_buffer {0}
+
+
+setUserDataValue init_cpf_file {}
+
+########## RTL ##########
+#setUserDataValue init_design_netlisttype {RTL}
+
+
+
+
